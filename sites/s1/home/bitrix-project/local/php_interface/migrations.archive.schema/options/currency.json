@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "currency",
+            "NAME": "installed_currencies",
+            "VALUE": "RUB,USD,EUR,UAH,BYN",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

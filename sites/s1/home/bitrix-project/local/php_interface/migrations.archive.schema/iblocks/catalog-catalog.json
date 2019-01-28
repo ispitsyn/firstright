@@ -1,0 +1,1823 @@
+{
+    "iblock": {
+        "IBLOCK_TYPE_ID": "catalog",
+        "LID": [
+            "s1"
+        ],
+        "CODE": "catalog",
+        "NAME": "Каталог",
+        "ACTIVE": "Y",
+        "SORT": "100",
+        "LIST_PAGE_URL": "#SITE_DIR#\/",
+        "DETAIL_PAGE_URL": "#SITE_DIR#\/#ELEMENT_CODE#\/",
+        "SECTION_PAGE_URL": "#SITE_DIR#\/#SECTION_CODE_PATH#\/",
+        "CANONICAL_PAGE_URL": "",
+        "PICTURE": null,
+        "DESCRIPTION": "",
+        "DESCRIPTION_TYPE": "text",
+        "RSS_TTL": "24",
+        "RSS_ACTIVE": "Y",
+        "RSS_FILE_ACTIVE": "N",
+        "RSS_FILE_LIMIT": null,
+        "RSS_FILE_DAYS": null,
+        "RSS_YANDEX_ACTIVE": "N",
+        "XML_ID": "6",
+        "INDEX_ELEMENT": "Y",
+        "INDEX_SECTION": "Y",
+        "WORKFLOW": "N",
+        "BIZPROC": "N",
+        "SECTION_CHOOSER": "L",
+        "LIST_MODE": "C",
+        "RIGHTS_MODE": "S",
+        "SECTION_PROPERTY": "Y",
+        "PROPERTY_INDEX": "I",
+        "VERSION": "1",
+        "LAST_CONV_ELEMENT": "0",
+        "SOCNET_GROUP_ID": null,
+        "EDIT_FILE_BEFORE": "",
+        "EDIT_FILE_AFTER": "",
+        "SECTIONS_NAME": "Разделы",
+        "SECTION_NAME": "Раздел",
+        "ELEMENTS_NAME": "Элементы",
+        "ELEMENT_NAME": "Элемент",
+        "EXTERNAL_ID": "6",
+        "LANG_DIR": "\/",
+        "SERVER_NAME": "firstright.ru"
+    },
+    "fields": {
+        "IBLOCK_SECTION": {
+            "NAME": "Привязка к разделам",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": {
+                "KEEP_IBLOCK_SECTION_ID": "Y"
+            }
+        },
+        "ACTIVE": {
+            "NAME": "Активность",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": "Y"
+        },
+        "ACTIVE_FROM": {
+            "NAME": "Начало активности",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": "=now"
+        },
+        "ACTIVE_TO": {
+            "NAME": "Окончание активности",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "SORT": {
+            "NAME": "Сортировка",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": "0"
+        },
+        "NAME": {
+            "NAME": "Название",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": ""
+        },
+        "PREVIEW_PICTURE": {
+            "NAME": "Картинка для анонса",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": {
+                "FROM_DETAIL": "Y",
+                "SCALE": "N",
+                "WIDTH": "",
+                "HEIGHT": "",
+                "IGNORE_ERRORS": "N",
+                "METHOD": "resample",
+                "COMPRESSION": 95,
+                "DELETE_WITH_DETAIL": "N",
+                "UPDATE_WITH_DETAIL": "N",
+                "USE_WATERMARK_TEXT": "N",
+                "WATERMARK_TEXT": "",
+                "WATERMARK_TEXT_FONT": "",
+                "WATERMARK_TEXT_COLOR": "",
+                "WATERMARK_TEXT_SIZE": "",
+                "WATERMARK_TEXT_POSITION": "tl",
+                "USE_WATERMARK_FILE": "N",
+                "WATERMARK_FILE": "",
+                "WATERMARK_FILE_ALPHA": "",
+                "WATERMARK_FILE_POSITION": "tl",
+                "WATERMARK_FILE_ORDER": null
+            }
+        },
+        "PREVIEW_TEXT_TYPE": {
+            "NAME": "Тип описания для анонса",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": "text"
+        },
+        "PREVIEW_TEXT": {
+            "NAME": "Описание для анонса",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "DETAIL_PICTURE": {
+            "NAME": "Детальная картинка",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": {
+                "SCALE": "N",
+                "WIDTH": "",
+                "HEIGHT": "",
+                "IGNORE_ERRORS": "N",
+                "METHOD": "resample",
+                "COMPRESSION": 95,
+                "USE_WATERMARK_TEXT": "N",
+                "WATERMARK_TEXT": "",
+                "WATERMARK_TEXT_FONT": "",
+                "WATERMARK_TEXT_COLOR": "",
+                "WATERMARK_TEXT_SIZE": "",
+                "WATERMARK_TEXT_POSITION": "tl",
+                "USE_WATERMARK_FILE": "N",
+                "WATERMARK_FILE": "",
+                "WATERMARK_FILE_ALPHA": "",
+                "WATERMARK_FILE_POSITION": "tl",
+                "WATERMARK_FILE_ORDER": null
+            }
+        },
+        "DETAIL_TEXT_TYPE": {
+            "NAME": "Тип детального описания",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": "text"
+        },
+        "DETAIL_TEXT": {
+            "NAME": "Детальное описание",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "XML_ID": {
+            "NAME": "Внешний код",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": ""
+        },
+        "CODE": {
+            "NAME": "Символьный код",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": {
+                "UNIQUE": "Y",
+                "TRANSLITERATION": "Y",
+                "TRANS_LEN": 100,
+                "TRANS_CASE": "L",
+                "TRANS_SPACE": "-",
+                "TRANS_OTHER": "-",
+                "TRANS_EAT": "Y",
+                "USE_GOOGLE": "Y"
+            }
+        },
+        "TAGS": {
+            "NAME": "Теги",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        }
+    },
+    "props": [
+        {
+            "NAME": "Тип связи товаров",
+            "ACTIVE": "Y",
+            "SORT": "100",
+            "CODE": "PRODUCT_CONNECT",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Объём накопителя",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "PERMANENT_MEMORY"
+                },
+                {
+                    "VALUE": "Цвет",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "COLOR"
+                },
+                {
+                    "VALUE": " Размер корпуса",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "BODY_SIZE"
+                },
+                {
+                    "VALUE": "Цвет корпуса",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "BODY_COLOR"
+                },
+                {
+                    "VALUE": "Передача сотовых данных",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "CELLULAR"
+                },
+                {
+                    "VALUE": "Цвет ремешка",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "STRAP_COLOR"
+                }
+            ]
+        },
+        {
+            "NAME": "Проверка на уникальность",
+            "ACTIVE": "Y",
+            "SORT": "200",
+            "CODE": "UNIQUE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Серия товара",
+                    "DEF": "N",
+                    "SORT": "10",
+                    "XML_ID": "PRODUCT_SERIES"
+                },
+                {
+                    "VALUE": "Объём накопителя",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "PERMANENT_MEMORY"
+                },
+                {
+                    "VALUE": "Цвет",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "COLOR"
+                },
+                {
+                    "VALUE": " Размер корпуса",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "BODY_SIZE"
+                },
+                {
+                    "VALUE": "Цвет циферблата",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "DIAL_COLOR"
+                },
+                {
+                    "VALUE": "Год выпуска",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "YEAR_OF_ISSUE"
+                },
+                {
+                    "VALUE": "Материал ремешка",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "STRAP_MATERIAL"
+                },
+                {
+                    "VALUE": "Тип устройства",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "DEVICE_TYPE"
+                },
+                {
+                    "VALUE": "Передача сотовых данных",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "CELLULAR"
+                },
+                {
+                    "VALUE": "Диагональ",
+                    "DEF": "N",
+                    "SORT": "700",
+                    "XML_ID": "DIAGONAL"
+                }
+            ]
+        },
+        {
+            "NAME": "Бренд",
+            "ACTIVE": "Y",
+            "SORT": "300",
+            "CODE": "BRAND",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "E",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "2",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "1",
+            "LINK_IBLOCK_ID": "catalog:brands",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "Y",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": ""
+        },
+        {
+            "NAME": "Артикул",
+            "ACTIVE": "N",
+            "SORT": "400",
+            "CODE": "VENDOR_CODE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "S",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": ""
+        },
+        {
+            "NAME": "Описание стандартного комплекта",
+            "ACTIVE": "Y",
+            "SORT": "600",
+            "CODE": "STANDARD_SET",
+            "DEFAULT_VALUE": {
+                "TYPE": "HTML",
+                "TEXT": ""
+            },
+            "PROPERTY_TYPE": "S",
+            "ROW_COUNT": "4",
+            "COL_COUNT": "50",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "HTML",
+            "USER_TYPE_SETTINGS": {
+                "height": 50
+            },
+            "HINT": ""
+        },
+        {
+            "NAME": "Описание характеристик",
+            "ACTIVE": "Y",
+            "SORT": "700",
+            "CODE": "CHARACTERISTICS_DESCRIPTION",
+            "DEFAULT_VALUE": {
+                "TYPE": "HTML",
+                "TEXT": ""
+            },
+            "PROPERTY_TYPE": "S",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "2",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "Y",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "HTML",
+            "USER_TYPE_SETTINGS": {
+                "height": 200
+            },
+            "HINT": ""
+        },
+        {
+            "NAME": "Серия товара",
+            "ACTIVE": "Y",
+            "SORT": "800",
+            "CODE": "PRODUCT_SERIES",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "30",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "iPhone XS Max",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "iPhone-XS-Max"
+                },
+                {
+                    "VALUE": "iPhone XS",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "iPhone-XS"
+                },
+                {
+                    "VALUE": "iPhone XR",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "iPhone-XR"
+                },
+                {
+                    "VALUE": "iPhone X",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "iPhone-X"
+                },
+                {
+                    "VALUE": "iPad Pro 10,5\"",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "iPad-Pro-10,5"
+                },
+                {
+                    "VALUE": "iPad Pro 11\"",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "iPad-Pro-11"
+                },
+                {
+                    "VALUE": "iPhone 8 Plus",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "iPhone-8-Plus"
+                },
+                {
+                    "VALUE": "iPhone 8",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "iPhone-8"
+                },
+                {
+                    "VALUE": "iPhone 7 Plus",
+                    "DEF": "N",
+                    "SORT": "700",
+                    "XML_ID": "iPhone-7-Plus"
+                },
+                {
+                    "VALUE": "iPhone 7",
+                    "DEF": "N",
+                    "SORT": "800",
+                    "XML_ID": "iPhone-7"
+                },
+                {
+                    "VALUE": "iPad Pro 12,9\"",
+                    "DEF": "N",
+                    "SORT": "900",
+                    "XML_ID": "iPad-Pro-12,9"
+                },
+                {
+                    "VALUE": "iPad",
+                    "DEF": "N",
+                    "SORT": "1000",
+                    "XML_ID": "iPad"
+                },
+                {
+                    "VALUE": "iPad Mini 4",
+                    "DEF": "N",
+                    "SORT": "1100",
+                    "XML_ID": "iPad-Mini-4"
+                },
+                {
+                    "VALUE": "Watch Series 4",
+                    "DEF": "N",
+                    "SORT": "1200",
+                    "XML_ID": "Watch-Series-4"
+                },
+                {
+                    "VALUE": "Watch Series 3",
+                    "DEF": "N",
+                    "SORT": "1300",
+                    "XML_ID": "Watch-Series-3"
+                },
+                {
+                    "VALUE": "Watch Series 4 Nike+",
+                    "DEF": "N",
+                    "SORT": "1400",
+                    "XML_ID": "Watch-Series-4-Nike"
+                },
+                {
+                    "VALUE": "Watch Series 3 Nike+",
+                    "DEF": "N",
+                    "SORT": "1500",
+                    "XML_ID": "Watch-Series-3-Nike"
+                },
+                {
+                    "VALUE": "MacBook",
+                    "DEF": "N",
+                    "SORT": "1600",
+                    "XML_ID": "MacBook"
+                },
+                {
+                    "VALUE": "MacBook Air",
+                    "DEF": "N",
+                    "SORT": "1700",
+                    "XML_ID": "MacBook-Air"
+                },
+                {
+                    "VALUE": "MacBook Pro",
+                    "DEF": "N",
+                    "SORT": "1800",
+                    "XML_ID": "MacBook-Pro"
+                },
+                {
+                    "VALUE": "iMac",
+                    "DEF": "N",
+                    "SORT": "1900",
+                    "XML_ID": "iMac"
+                },
+                {
+                    "VALUE": "iMac Pro",
+                    "DEF": "N",
+                    "SORT": "2000",
+                    "XML_ID": "iMac-Pro"
+                },
+                {
+                    "VALUE": "Mac Pro",
+                    "DEF": "N",
+                    "SORT": "2100",
+                    "XML_ID": "Mac-Pro"
+                },
+                {
+                    "VALUE": "Mac Mini",
+                    "DEF": "N",
+                    "SORT": "2200",
+                    "XML_ID": "Mac-Mini"
+                },
+                {
+                    "VALUE": "TV",
+                    "DEF": "N",
+                    "SORT": "2300",
+                    "XML_ID": "TV"
+                },
+                {
+                    "VALUE": "TV 4K",
+                    "DEF": "N",
+                    "SORT": "2400",
+                    "XML_ID": "TV-4K"
+                }
+            ]
+        },
+        {
+            "NAME": "Диагональ",
+            "ACTIVE": "Y",
+            "SORT": "900",
+            "CODE": "DIAGONAL",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "21",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "12.9\" ",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "12.9\""
+                },
+                {
+                    "VALUE": "10.5\" ",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "10.5\""
+                },
+                {
+                    "VALUE": "9.7\" ",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "9.7\""
+                },
+                {
+                    "VALUE": "7.9\" ",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "7.9\""
+                },
+                {
+                    "VALUE": "12\"",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "12\""
+                },
+                {
+                    "VALUE": "13\"",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "13\""
+                },
+                {
+                    "VALUE": "15\"",
+                    "DEF": "N",
+                    "SORT": "700",
+                    "XML_ID": "15\""
+                },
+                {
+                    "VALUE": "21.5\"",
+                    "DEF": "N",
+                    "SORT": "800",
+                    "XML_ID": "21.5\""
+                },
+                {
+                    "VALUE": "27\"",
+                    "DEF": "N",
+                    "SORT": "900",
+                    "XML_ID": "27\""
+                },
+                {
+                    "VALUE": "11\"",
+                    "DEF": "N",
+                    "SORT": "1000",
+                    "XML_ID": "11\""
+                }
+            ]
+        },
+        {
+            "NAME": "Размер корпуса",
+            "ACTIVE": "Y",
+            "SORT": "1000",
+            "CODE": "BODY_SIZE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "13",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "38 мм",
+                    "DEF": "Y",
+                    "SORT": "100",
+                    "XML_ID": "38"
+                },
+                {
+                    "VALUE": "40 мм",
+                    "DEF": "N",
+                    "SORT": "101",
+                    "XML_ID": "40"
+                },
+                {
+                    "VALUE": "42 мм",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "42"
+                },
+                {
+                    "VALUE": "44 мм",
+                    "DEF": "N",
+                    "SORT": "201",
+                    "XML_ID": "44"
+                }
+            ]
+        },
+        {
+            "NAME": "Передача сотовых данных",
+            "ACTIVE": "Y",
+            "SORT": "1100",
+            "CODE": "CELLULAR",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "23",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Да",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Y"
+                },
+                {
+                    "VALUE": "Нет",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "N"
+                }
+            ]
+        },
+        {
+            "NAME": "Цвет корпуса",
+            "ACTIVE": "Y",
+            "SORT": "1200",
+            "CODE": "BODY_COLOR",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "29",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Серый Космос",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Space Gray"
+                },
+                {
+                    "VALUE": "Серебристый",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "Silver"
+                },
+                {
+                    "VALUE": "Золотой",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "Gold"
+                }
+            ]
+        },
+        {
+            "NAME": "Цвет ремешка",
+            "ACTIVE": "Y",
+            "SORT": "1300",
+            "CODE": "STRAP_COLOR",
+            "DEFAULT_VALUE": null,
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": null,
+            "LINK_IBLOCK_ID": null,
+            "WITH_DESCRIPTION": null,
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Чёрный",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Black"
+                },
+                {
+                    "VALUE": "Белый",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "White"
+                },
+                {
+                    "VALUE": "Розовый Песок",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "Pink Sand"
+                },
+                {
+                    "VALUE": "Антрацитовый\/Чёрный",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "Anthracite\/Black"
+                },
+                {
+                    "VALUE": "Чистая Платина\/Чёрный",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "Pure Platinum\/Black"
+                },
+                {
+                    "VALUE": "Снежная Вершина",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "Snowy Peak"
+                },
+                {
+                    "VALUE": "Белая Ракушка",
+                    "DEF": "N",
+                    "SORT": "700",
+                    "XML_ID": "White Shell"
+                }
+            ]
+        },
+        {
+            "NAME": "Материал ремешка",
+            "ACTIVE": "Y",
+            "SORT": "1400",
+            "CODE": "STRAP_MATERIAL",
+            "DEFAULT_VALUE": null,
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": null,
+            "LINK_IBLOCK_ID": null,
+            "WITH_DESCRIPTION": null,
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Фторэластомер",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "FLUOROELASTOMER"
+                },
+                {
+                    "VALUE": "Ткань",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "CLOTH"
+                }
+            ]
+        },
+        {
+            "NAME": "Процессор",
+            "ACTIVE": "Y",
+            "SORT": "1500",
+            "CODE": "CPU",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "24",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Intel Core i5",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Intel Core i5"
+                },
+                {
+                    "VALUE": "Intel Core i7",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "Intel Core i7"
+                },
+                {
+                    "VALUE": "Intel Core m3",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "Intel Core m3"
+                },
+                {
+                    "VALUE": "Intel Xeon E5",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "Intel Xeon E5"
+                },
+                {
+                    "VALUE": "Intel Core i3",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "Intel Core i3"
+                },
+                {
+                    "VALUE": "Intel Xeon W",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "Intel Xeon W"
+                }
+            ]
+        },
+        {
+            "NAME": "Тип накопителя",
+            "ACTIVE": "Y",
+            "SORT": "1600",
+            "CODE": "TYPE_MEMORY",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "28",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "HDD",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "HDD"
+                },
+                {
+                    "VALUE": "SSD",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "SSD"
+                },
+                {
+                    "VALUE": "Fusion Drive",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "Fusion Drive"
+                }
+            ]
+        },
+        {
+            "NAME": "Объём накопителя",
+            "ACTIVE": "Y",
+            "SORT": "1700",
+            "CODE": "PERMANENT_MEMORY",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "16 ГБ",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "16GB"
+                },
+                {
+                    "VALUE": "32 ГБ",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "32GB"
+                },
+                {
+                    "VALUE": "64 ГБ",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "64GB"
+                },
+                {
+                    "VALUE": "128 ГБ",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "128GB"
+                },
+                {
+                    "VALUE": "256 ГБ",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "256GB"
+                },
+                {
+                    "VALUE": "512 ГБ",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "512GB"
+                },
+                {
+                    "VALUE": "1 ТБ",
+                    "DEF": "N",
+                    "SORT": "700",
+                    "XML_ID": "1TB"
+                },
+                {
+                    "VALUE": "2 ТБ",
+                    "DEF": "N",
+                    "SORT": "800",
+                    "XML_ID": "2TB"
+                }
+            ]
+        },
+        {
+            "NAME": "Цвет",
+            "ACTIVE": "Y",
+            "SORT": "1800",
+            "CODE": "COLOR",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "S",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "directory",
+            "USER_TYPE_SETTINGS": {
+                "size": 1,
+                "width": 0,
+                "group": "N",
+                "multiple": "N",
+                "TABLE_NAME": "b_hlbd_colors"
+            },
+            "HINT": ""
+        },
+        {
+            "NAME": "Объём оперативной памяти",
+            "ACTIVE": "Y",
+            "SORT": "1900",
+            "CODE": "RAM",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "25",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "4 ГБ",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "4GB"
+                },
+                {
+                    "VALUE": "8 ГБ",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "8GB"
+                },
+                {
+                    "VALUE": "16 ГБ",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "16GB"
+                },
+                {
+                    "VALUE": "32 ГБ",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "32GB"
+                }
+            ]
+        },
+        {
+            "NAME": "Тип дисплея",
+            "ACTIVE": "Y",
+            "SORT": "2000",
+            "CODE": "DISPLAY_TYPE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "26",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Обычный",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Обычный"
+                },
+                {
+                    "VALUE": "Retina",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "Retina"
+                },
+                {
+                    "VALUE": "Retina 4K",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "Retina 4K"
+                },
+                {
+                    "VALUE": "Retina 5K",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "Retina 5K"
+                }
+            ]
+        },
+        {
+            "NAME": "Touch Bar",
+            "ACTIVE": "Y",
+            "SORT": "2100",
+            "CODE": "TOUCH_BAR",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": "27",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Да",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Да"
+                },
+                {
+                    "VALUE": "Нет",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "Нет"
+                }
+            ]
+        },
+        {
+            "NAME": "Галерея",
+            "ACTIVE": "Y",
+            "SORT": "2200",
+            "CODE": "GALLERY",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "F",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": "8",
+            "FILE_TYPE": "jpg, gif, bmp, png, jpeg",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": ""
+        },
+        {
+            "NAME": "Изображения для экспорта ВКонтакте",
+            "ACTIVE": "Y",
+            "SORT": "2300",
+            "CODE": "PHOTOS_FOR_VK_6",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "F",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "jpg, jpeg, bmp, gif, png",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "Подробно о подборе изображения для ВКонтакте можно прочесть в инструкции."
+        },
+        {
+            "NAME": "Главная: Новинки",
+            "ACTIVE": "Y",
+            "SORT": "2400",
+            "CODE": "INDEX_NEW",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "C",
+            "MULTIPLE": "N",
+            "XML_ID": "50",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Да",
+                    "DEF": "Y",
+                    "SORT": "100",
+                    "XML_ID": "Y"
+                }
+            ]
+        },
+        {
+            "NAME": "Главная: Популярные",
+            "ACTIVE": "Y",
+            "SORT": "2500",
+            "CODE": "INDEX_TOP",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "C",
+            "MULTIPLE": "N",
+            "XML_ID": "49",
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Да",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Y"
+                }
+            ]
+        },
+        {
+            "NAME": "Категории",
+            "ACTIVE": "Y",
+            "SORT": "2600",
+            "CODE": "CATEGORIES",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Кабели и переходники",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "CABLES_ADAPTERS"
+                },
+                {
+                    "VALUE": "Чехлы и накладки",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "CASES_COVERS"
+                },
+                {
+                    "VALUE": "Зарядные устройства",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "CHARGING_DEVICE"
+                },
+                {
+                    "VALUE": "Наушники и акустика",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "HEADPHONES_ACOUSTICS"
+                },
+                {
+                    "VALUE": "Защитные стёкла и плёнки",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "PROTECTIVE_GLASS_FILMS"
+                },
+                {
+                    "VALUE": "Беспроводные гарнитуры",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "WIRELESS_HEADSETS"
+                },
+                {
+                    "VALUE": "Ремешки для Apple Watch",
+                    "DEF": "N",
+                    "SORT": "700",
+                    "XML_ID": "STRAPS_FOR_APPLE_WATCH"
+                },
+                {
+                    "VALUE": "Портативные аккумуляторы",
+                    "DEF": "N",
+                    "SORT": "800",
+                    "XML_ID": "PORTABLE_BATTERIES"
+                },
+                {
+                    "VALUE": "Держатели и подставки",
+                    "DEF": "N",
+                    "SORT": "900",
+                    "XML_ID": "HOLDERS_STANDS"
+                },
+                {
+                    "VALUE": "Моноподы и штативы",
+                    "DEF": "N",
+                    "SORT": "1000",
+                    "XML_ID": "MONOPODS_TRIPODS"
+                },
+                {
+                    "VALUE": "Спорт и здоровье",
+                    "DEF": "N",
+                    "SORT": "1100",
+                    "XML_ID": "SPORT_HEALTH"
+                },
+                {
+                    "VALUE": "Рюкзаки и сумки",
+                    "DEF": "N",
+                    "SORT": "1200",
+                    "XML_ID": "BACKPACKS_BAGS"
+                },
+                {
+                    "VALUE": "Накопители памяти",
+                    "DEF": "N",
+                    "SORT": "1300",
+                    "XML_ID": "MEMORY_DRIVES"
+                },
+                {
+                    "VALUE": "Сетевое оборудование",
+                    "DEF": "N",
+                    "SORT": "1400",
+                    "XML_ID": "NETWORK_HARDWARE"
+                },
+                {
+                    "VALUE": "Клавиатуры и мыши",
+                    "DEF": "N",
+                    "SORT": "1500",
+                    "XML_ID": "KEYBOARDS_MICE"
+                },
+                {
+                    "VALUE": "Игрушки",
+                    "DEF": "N",
+                    "SORT": "1600",
+                    "XML_ID": "TOYS"
+                },
+                {
+                    "VALUE": "Подарочные сертификаты",
+                    "DEF": "N",
+                    "SORT": "1700",
+                    "XML_ID": "GIFT_CERTIFICATES"
+                },
+                {
+                    "VALUE": "Прочее",
+                    "DEF": "N",
+                    "SORT": "1800",
+                    "XML_ID": "Other"
+                }
+            ]
+        },
+        {
+            "NAME": "Тип устройства",
+            "ACTIVE": "Y",
+            "SORT": "4000",
+            "CODE": "DEVICE_TYPE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "iPhone X",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "IPHONE_X"
+                },
+                {
+                    "VALUE": "iPhone 8\/7 Plus",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "IPHONE_8_PLUS"
+                },
+                {
+                    "VALUE": "iPhone 8\/7",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "IPHONE_8"
+                },
+                {
+                    "VALUE": "iPhone 6\/6s Plus",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "IPHONE_6S_PLUS"
+                },
+                {
+                    "VALUE": "iPhone 6\/6s",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "IPHONE_6S"
+                },
+                {
+                    "VALUE": "iPhone 5\/5s\/SE",
+                    "DEF": "N",
+                    "SORT": "600",
+                    "XML_ID": "IPHONE_5"
+                }
+            ]
+        },
+        {
+            "NAME": "Тип аксессуара",
+            "ACTIVE": "Y",
+            "SORT": "4100",
+            "CODE": "ACCESSORY_TYPE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Накладка",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "PAD"
+                }
+            ]
+        },
+        {
+            "NAME": "Тип подключения",
+            "ACTIVE": "Y",
+            "SORT": "4200",
+            "CODE": "CONNECTION_TYPE",
+            "DEFAULT_VALUE": null,
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": null,
+            "LINK_IBLOCK_ID": null,
+            "WITH_DESCRIPTION": null,
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": []
+        },
+        {
+            "NAME": "Емкость",
+            "ACTIVE": "Y",
+            "SORT": "4300",
+            "CODE": "CAPACITY",
+            "DEFAULT_VALUE": null,
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": null,
+            "LINK_IBLOCK_ID": null,
+            "WITH_DESCRIPTION": null,
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": []
+        },
+        {
+            "NAME": "Материал",
+            "ACTIVE": "Y",
+            "SORT": "4500",
+            "CODE": "MATERIAL",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Силикон",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "SILICON"
+                },
+                {
+                    "VALUE": "Кожа",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "LEATHER"
+                },
+                {
+                    "VALUE": "Искусственная кожа",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "ARTIFICIAL_LEATHER"
+                }
+            ]
+        },
+        {
+            "NAME": "Год выпуска",
+            "ACTIVE": "Y",
+            "SORT": "9876",
+            "CODE": "YEAR_OF_ISSUE",
+            "DEFAULT_VALUE": null,
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": null,
+            "LINK_IBLOCK_ID": null,
+            "WITH_DESCRIPTION": null,
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": "",
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "2018",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "2018"
+                },
+                {
+                    "VALUE": "2017",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "2017"
+                },
+                {
+                    "VALUE": "2016",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "2016"
+                },
+                {
+                    "VALUE": "2015",
+                    "DEF": "N",
+                    "SORT": "400",
+                    "XML_ID": "2015"
+                },
+                {
+                    "VALUE": "2014",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "2014"
+                }
+            ]
+        }
+    ],
+    "element_form": {
+        "Элемент": {
+            "ACTIVE": "Активность",
+            "PROPERTY_INDEX_NEW": "Главная: Новинки",
+            "PROPERTY_INDEX_TOP": "Главная: Популярные",
+            "SORT": "Сортировка",
+            "NAME": "Название",
+            "CODE": "Символьный код"
+        },
+        "Анонс": {
+            "PREVIEW_PICTURE": "Картинка для анонса",
+            "PREVIEW_TEXT": "Описание для анонса"
+        },
+        "Подробно": {
+            "PROPERTY_GALLERY": "Галерея",
+            "PROPERTY_STANDARD_SET": "Описание стандартного коплекта",
+            "DETAIL_TEXT": "Детальное описание"
+        },
+        "Свойства": {
+            "PROPERTY_BRAND": "Бренд",
+            "IBLOCK_ELEMENT_PROPERTY": "Свойства"
+        },
+        "Характеристики": {
+            "PROPERTY_CHARACTERISTICS_DESCRIPTION": "Описание характеристик"
+        },
+        "Торговый каталог": {
+            "CATALOG": "Торговый каталог"
+        },
+        "Разделы": {
+            "IBLOCK_ELEMENT_SECTION_ID": "Основной раздел",
+            "SECTIONS": "Разделы"
+        },
+        "SEO": {
+            "IPROPERTY_TEMPLATES_ELEMENT_META_TITLE": "Шаблон META TITLE",
+            "IPROPERTY_TEMPLATES_ELEMENT_META_KEYWORDS": "Шаблон META KEYWORDS",
+            "IPROPERTY_TEMPLATES_ELEMENT_META_DESCRIPTION": "Шаблон META DESCRIPTION",
+            "IPROPERTY_TEMPLATES_ELEMENT_PAGE_TITLE": "Заголовок элемента",
+            "IPROPERTY_TEMPLATES_ELEMENTS_PREVIEW_PICTURE": "Настройки для картинок анонса элементов",
+            "IPROPERTY_TEMPLATES_ELEMENT_PREVIEW_PICTURE_FILE_ALT": "Шаблон ALT",
+            "IPROPERTY_TEMPLATES_ELEMENT_PREVIEW_PICTURE_FILE_TITLE": "Шаблон TITLE",
+            "IPROPERTY_TEMPLATES_ELEMENT_PREVIEW_PICTURE_FILE_NAME": "Шаблон имени файла",
+            "IPROPERTY_TEMPLATES_ELEMENTS_DETAIL_PICTURE": "Настройки для детальных картинок элементов",
+            "IPROPERTY_TEMPLATES_ELEMENT_DETAIL_PICTURE_FILE_ALT": "Шаблон ALT",
+            "IPROPERTY_TEMPLATES_ELEMENT_DETAIL_PICTURE_FILE_TITLE": "Шаблон TITLE",
+            "IPROPERTY_TEMPLATES_ELEMENT_DETAIL_PICTURE_FILE_NAME": "Шаблон имени файла",
+            "SEO_ADDITIONAL": "Дополнительно",
+            "TAGS": "Теги"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.product-group {
+  &__header {
+    @extend .section__header;
+  }
+
+  &__title {
+    @extend .section__title;
+  }
+
+  &__description {
+    @extend .section__description;
+  }
+
+  &__main {
+
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 100%;
+    max-width: 25%;
+  }
+
+  &__footer {
+    @extend .section__footer;
+  }
+}

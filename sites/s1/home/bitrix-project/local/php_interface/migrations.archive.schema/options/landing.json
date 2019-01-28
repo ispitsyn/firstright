@@ -1,0 +1,59 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "landing",
+            "NAME": "pub_path_s1",
+            "VALUE": "\/lp\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "landing",
+            "NAME": "block_vendor_bitrix",
+            "VALUE": "https:\/\/repo.bitrix24.site\/rest\/1\/w1uqy3swvyp50bso\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "landing",
+            "NAME": "disabled_namespaces",
+            "VALUE": "bitrix",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "landing",
+            "NAME": "new_blocks",
+            "VALUE": {
+                "date": 1542476718,
+                "items": [
+                    "32.2.1.img_one_big_full",
+                    "46.6.cover_with_bg_image_and_bottom_title",
+                    "49.1.video_just_video",
+                    "49.2.two_cols_text_video_fix",
+                    "49.3.two_cols_video_text_fix",
+                    "49.4.two_cols_video_carousel",
+                    "49.5.big_with_text_3",
+                    "28.4.team_4_cols_hover_slider",
+                    "28.5.team_4_cols_slider",
+                    "28.6.team_4_cols",
+                    "51.1.countdown_01",
+                    "51.2.countdown_04",
+                    "51.3.countdown_08",
+                    "51.3.countdown_08_wo_bg",
+                    "51.4.countdown_music",
+                    "51.5.countdown_event",
+                    "51.7.countdown_13",
+                    "16.1.google_map",
+                    "16.2.two_cols_text_map_fix",
+                    "16.3.two_cols_map_text_fix",
+                    "16.4.three_cols_map",
+                    "16.5.two_cols_map",
+                    "16.6.two_cols_map_reverse"
+                ]
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

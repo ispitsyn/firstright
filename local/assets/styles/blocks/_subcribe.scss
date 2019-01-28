@@ -1,0 +1,37 @@
+.subscribe {
+  &_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .el-checkbox__label {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .el-checkbox__inner {
+      border-color: #333333;
+      background-color: #333333;
+    }
+
+    .subscribe {
+      &__text {
+        font-size: 14px;
+        line-height: 1.6;
+        font-weight: 600;
+        font-family: 'OpenSans', Arial, sans-serif;
+        color: #fff;
+      }
+      &__form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .el-checkbox {
+          position: absolute;
+          left: 0;
+          bottom: -25px;
+        }
+      }
+    }
+  }
+}

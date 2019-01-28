@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "conversion",
+            "NAME": "START_DATE_TIME",
+            "VALUE": "2018-08-04 13:57:06",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "conversion",
+            "NAME": "BASE_CURRENCY",
+            "VALUE": "RUB",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "conversion",
+            "NAME": "GENERATE_INITIAL_DATA",
+            "VALUE": "generated",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "pull",
+            "NAME": "path_to_listener",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "pull",
+            "NAME": "path_to_websocket",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "pull",
+            "NAME": "websocket",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "pull",
+            "NAME": "path_to_mobile_listener",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "pull",
+            "NAME": "path_to_mobile_listener_secure",
+            "VALUE": "https:\/\/#DOMAIN#:8894\/bitrix\/sub\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "pull",
+            "NAME": "path_to_modern_listener",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "pull",
+            "NAME": "path_to_modern_listener_secure",
+            "VALUE": "https:\/\/#DOMAIN#\/bitrix\/sub\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

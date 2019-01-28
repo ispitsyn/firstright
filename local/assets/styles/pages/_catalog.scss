@@ -1,0 +1,52 @@
+.catalog {
+  &__box {
+    @include cf();
+  }
+  &__filter {
+    float: left;
+    width: 280px;
+    & + .catalog__layout {
+      padding-left: 280px;
+      .catalog__grid-item {
+        max-width: 33.3333%;
+      }
+    }
+  }
+  &__layout {
+    display: block;
+    width: 100%;
+  }
+  &__title {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: $OpenSans_22_600;
+  }
+  &__tags {
+    width: 100%;
+  }
+  &__grid {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    &_empty {
+      min-height: 320px;
+      text-align: center;
+      font: $OpenSans_44_700;
+    }
+  }
+  &__grid-item {
+    width: 100%;
+    max-width: 25%;
+  }
+  &__pagination {
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    padding: 15px 0;
+  }
+}

@@ -1,0 +1,21 @@
+.field {
+  line-height: 34px;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  padding: 0 15px;
+  white-space: nowrap;
+  text-overflow: clip;
+  overflow: hidden;
+  outline: transparent;
+  color: #121212;
+  &::placeholder {
+    color: #a6a6a6;
+  }
+  &:focus,
+  &:active {
+    border-color: #ff5722;
+  }
+
+}

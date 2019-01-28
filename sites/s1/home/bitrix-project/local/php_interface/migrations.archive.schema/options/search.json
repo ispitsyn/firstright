@@ -1,0 +1,186 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "search",
+            "NAME": "version",
+            "VALUE": "v2.0",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "dbnode_id",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "dbnode_status",
+            "VALUE": "ok",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "max_file_size",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "include_mask",
+            "VALUE": "*.php;*.html;*.htm",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "exclude_mask",
+            "VALUE": "\/bitrix\/*;\/404.php;\/upload\/*;*\/.hg\/*;*\/.svn\/*;*\/.git\/*;*\/cgi-bin\/*;\/bitrix_personal\/*;\/local\/*",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "page_tag_property",
+            "VALUE": "tags",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "use_stemming",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "agent_stemming",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "agent_duration",
+            "VALUE": "2",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "full_text_engine",
+            "VALUE": "bitrix",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "letters",
+            "VALUE": "-",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "sphinx_connection",
+            "VALUE": "synergy-lab.ru:9306",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "sphinx_index_name",
+            "VALUE": "firstrightru",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "sphinx_note",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "mysql_note",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "max_result_size",
+            "VALUE": "500",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "max_body_size",
+            "VALUE": "100000",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "use_tf_cache",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "use_word_distance",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "use_social_rating",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "suggest_save_days",
+            "VALUE": "30",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "stat_phrase",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "stat_phrase_save_days",
+            "VALUE": "360",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "max_execution_time",
+            "VALUE": "20",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "search",
+            "NAME": "full_reindex_required",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

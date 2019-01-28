@@ -1,0 +1,432 @@
+{
+    "iblock": {
+        "IBLOCK_TYPE_ID": "repair",
+        "LID": [
+            "s1"
+        ],
+        "CODE": "repaer_servises",
+        "NAME": "Услуги",
+        "ACTIVE": "Y",
+        "SORT": "100",
+        "LIST_PAGE_URL": "#SITE_DIR#\/repair\/index.php?ID=#IBLOCK_ID#",
+        "DETAIL_PAGE_URL": "#SITE_DIR#\/repair\/detail.php?ID=#ELEMENT_ID#",
+        "SECTION_PAGE_URL": "#SITE_DIR#\/repair\/list.php?SECTION_ID=#SECTION_ID#",
+        "CANONICAL_PAGE_URL": "",
+        "PICTURE": null,
+        "DESCRIPTION": "<h3>У нас есть следующие варианты доставки:<\/h3>\r\n<p>\r\n\t 1. Бесплатная доставка осуществляется по Нижнему Новгороду при сумме заказа более 10 000 руб. При меньшей сумме заказа — доставка 300 рублей по Нижнему Новгороду. При доставке по России за пределы Нижнего Новгорода — стоимость доставки договорная.\r\n<\/p>\r\n<p>\r\n\t 2. Самовывоз. Вы можете приехать в один из наших центров продаж забрать свой заказ, предварительно позвонив по телефону. Внимание! Самовывоз возможен только при согласовании с менеджером.\r\n<\/p>\r\n <br>\r\n<h3>Для Вашего удобства у нас предусмотрено несколько видов оплаты:<\/h3>\r\n<p>\r\n\t 1. Бесплатная доставка осуществляется по Нижнему Новгороду при сумме заказа более 10 000 руб. При меньшей сумме заказа — доставка 300 рублей по Нижнему Новгороду. При доставке по России за пределы Нижнего Новгорода — стоимость доставки договорная.\r\n<\/p>\r\n<p>\r\n\t 2. Самовывоз. Вы можете приехать в один из наших центров продаж забрать свой заказ, предварительно позвонив по телефону. Внимание! Самовывоз возможен только при согласовании с менеджером.\r\n<\/p>",
+        "DESCRIPTION_TYPE": "html",
+        "RSS_TTL": "24",
+        "RSS_ACTIVE": "Y",
+        "RSS_FILE_ACTIVE": "N",
+        "RSS_FILE_LIMIT": null,
+        "RSS_FILE_DAYS": null,
+        "RSS_YANDEX_ACTIVE": "N",
+        "XML_ID": null,
+        "INDEX_ELEMENT": "Y",
+        "INDEX_SECTION": "Y",
+        "WORKFLOW": "N",
+        "BIZPROC": "N",
+        "SECTION_CHOOSER": "L",
+        "LIST_MODE": "",
+        "RIGHTS_MODE": "S",
+        "SECTION_PROPERTY": null,
+        "PROPERTY_INDEX": null,
+        "VERSION": "1",
+        "LAST_CONV_ELEMENT": "0",
+        "SOCNET_GROUP_ID": null,
+        "EDIT_FILE_BEFORE": "",
+        "EDIT_FILE_AFTER": "",
+        "SECTIONS_NAME": "Разделы",
+        "SECTION_NAME": "Раздел",
+        "ELEMENTS_NAME": "Элементы",
+        "ELEMENT_NAME": "Элемент",
+        "EXTERNAL_ID": null,
+        "LANG_DIR": "\/",
+        "SERVER_NAME": "firstright.ru"
+    },
+    "fields": {
+        "IBLOCK_SECTION": {
+            "NAME": "Привязка к разделам",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": {
+                "KEEP_IBLOCK_SECTION_ID": "N"
+            }
+        },
+        "ACTIVE": {
+            "NAME": "Активность",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": "Y"
+        },
+        "ACTIVE_FROM": {
+            "NAME": "Начало активности",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "ACTIVE_TO": {
+            "NAME": "Окончание активности",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "SORT": {
+            "NAME": "Сортировка",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": "0"
+        },
+        "NAME": {
+            "NAME": "Название",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": ""
+        },
+        "PREVIEW_PICTURE": {
+            "NAME": "Картинка для анонса",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": {
+                "FROM_DETAIL": "N",
+                "SCALE": "N",
+                "WIDTH": "",
+                "HEIGHT": "",
+                "IGNORE_ERRORS": "N",
+                "METHOD": "resample",
+                "COMPRESSION": 95,
+                "DELETE_WITH_DETAIL": "N",
+                "UPDATE_WITH_DETAIL": "N",
+                "USE_WATERMARK_TEXT": "N",
+                "WATERMARK_TEXT": "",
+                "WATERMARK_TEXT_FONT": "",
+                "WATERMARK_TEXT_COLOR": "",
+                "WATERMARK_TEXT_SIZE": "",
+                "WATERMARK_TEXT_POSITION": "tl",
+                "USE_WATERMARK_FILE": "N",
+                "WATERMARK_FILE": "",
+                "WATERMARK_FILE_ALPHA": "",
+                "WATERMARK_FILE_POSITION": "tl",
+                "WATERMARK_FILE_ORDER": null
+            }
+        },
+        "PREVIEW_TEXT_TYPE": {
+            "NAME": "Тип описания для анонса",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": "text"
+        },
+        "PREVIEW_TEXT": {
+            "NAME": "Описание для анонса",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "DETAIL_PICTURE": {
+            "NAME": "Детальная картинка",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": {
+                "SCALE": "N",
+                "WIDTH": "",
+                "HEIGHT": "",
+                "IGNORE_ERRORS": "N",
+                "METHOD": "resample",
+                "COMPRESSION": 95,
+                "USE_WATERMARK_TEXT": "N",
+                "WATERMARK_TEXT": "",
+                "WATERMARK_TEXT_FONT": "",
+                "WATERMARK_TEXT_COLOR": "",
+                "WATERMARK_TEXT_SIZE": "",
+                "WATERMARK_TEXT_POSITION": "tl",
+                "USE_WATERMARK_FILE": "N",
+                "WATERMARK_FILE": "",
+                "WATERMARK_FILE_ALPHA": "",
+                "WATERMARK_FILE_POSITION": "tl",
+                "WATERMARK_FILE_ORDER": null
+            }
+        },
+        "DETAIL_TEXT_TYPE": {
+            "NAME": "Тип детального описания",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": "text"
+        },
+        "DETAIL_TEXT": {
+            "NAME": "Детальное описание",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        },
+        "XML_ID": {
+            "NAME": "Внешний код",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": ""
+        },
+        "CODE": {
+            "NAME": "Символьный код",
+            "IS_REQUIRED": "Y",
+            "DEFAULT_VALUE": {
+                "UNIQUE": "Y",
+                "TRANSLITERATION": "Y",
+                "TRANS_LEN": 100,
+                "TRANS_CASE": "L",
+                "TRANS_SPACE": "-",
+                "TRANS_OTHER": "-",
+                "TRANS_EAT": "Y",
+                "USE_GOOGLE": "Y"
+            }
+        },
+        "TAGS": {
+            "NAME": "Теги",
+            "IS_REQUIRED": "N",
+            "DEFAULT_VALUE": ""
+        }
+    },
+    "props": [
+        {
+            "NAME": "Тип ремонта",
+            "ACTIVE": "Y",
+            "SORT": "100",
+            "CODE": "REPAIR_TYPE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "Y",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Аппаратный",
+                    "DEF": "Y",
+                    "SORT": "100",
+                    "XML_ID": "HARDWARE"
+                },
+                {
+                    "VALUE": "Программный",
+                    "DEF": "N",
+                    "SORT": "200",
+                    "XML_ID": "SOFTWARE"
+                },
+                {
+                    "VALUE": "Восстановление платы",
+                    "DEF": "N",
+                    "SORT": "300",
+                    "XML_ID": "RECOVERY"
+                },
+                {
+                    "VALUE": "Комбо прайс",
+                    "DEF": "N",
+                    "SORT": "500",
+                    "XML_ID": "600161fd7fe7622262eb18190bf7f339"
+                }
+            ]
+        },
+        {
+            "NAME": "Проблема",
+            "ACTIVE": "Y",
+            "SORT": "200",
+            "CODE": "PROBLEM",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Замена стекла",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "BROKEN_SCREEN"
+                }
+            ]
+        },
+        {
+            "NAME": "Время",
+            "ACTIVE": "Y",
+            "SORT": "300",
+            "CODE": "TIME",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "N",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": ""
+        },
+        {
+            "NAME": "Стоимость",
+            "ACTIVE": "Y",
+            "SORT": "400",
+            "CODE": "PRICE",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "N",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": ""
+        },
+        {
+            "NAME": "Изображения для экспорта ВКонтакте",
+            "ACTIVE": "Y",
+            "SORT": "500",
+            "CODE": "PHOTOS_FOR_VK_18",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "F",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "Y",
+            "XML_ID": null,
+            "FILE_TYPE": "jpg, jpeg, bmp, gif, png",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "Подробно о подборе изображения для ВКонтакте можно прочесть в инструкции."
+        },
+        {
+            "NAME": "Цена от",
+            "ACTIVE": "Y",
+            "SORT": "500",
+            "CODE": "PRICE_FROM",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "L",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "C",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "Y",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": "",
+            "VALUES": [
+                {
+                    "VALUE": "Да",
+                    "DEF": "N",
+                    "SORT": "100",
+                    "XML_ID": "Y"
+                }
+            ]
+        },
+        {
+            "NAME": "Группа",
+            "ACTIVE": "Y",
+            "SORT": "500",
+            "CODE": "GROUP",
+            "DEFAULT_VALUE": "",
+            "PROPERTY_TYPE": "S",
+            "ROW_COUNT": "1",
+            "COL_COUNT": "30",
+            "LIST_TYPE": "L",
+            "MULTIPLE": "N",
+            "XML_ID": null,
+            "FILE_TYPE": "",
+            "MULTIPLE_CNT": "5",
+            "LINK_IBLOCK_ID": "0",
+            "WITH_DESCRIPTION": "N",
+            "SEARCHABLE": "N",
+            "FILTRABLE": "N",
+            "IS_REQUIRED": "N",
+            "VERSION": "1",
+            "USER_TYPE": null,
+            "USER_TYPE_SETTINGS": null,
+            "HINT": ""
+        }
+    ],
+    "element_form": {
+        "Элемент": {
+            "ACTIVE": "Активность",
+            "NAME": "Название",
+            "CODE": "Символьный код",
+            "SORT": "Сортировка",
+            "IBLOCK_ELEMENT_PROP_VALUE": "Значения свойств",
+            "PROPERTY_REPAIR_TYPE": "Тип ремонта",
+            "PROPERTY_PROBLEM": "Проблема",
+            "PROPERTY_TIME": "Время",
+            "PROPERTY_PRICE_FROM": "Цена от",
+            "PROPERTY_PRICE": "Стоимость",
+            "PROPERTY_GROUP": "Группа",
+            "PROPERTY_PHOTOS_FOR_VK_18": "Изображения для экспорта ВКонтакте"
+        },
+        "Анонс": {
+            "PREVIEW_PICTURE": "Картинка для анонса",
+            "PREVIEW_TEXT": "Описание для анонса"
+        },
+        "Подробно": {
+            "DETAIL_PICTURE": "Детальная картинка",
+            "DETAIL_TEXT": "Детальное описание"
+        },
+        "SEO": {
+            "IPROPERTY_TEMPLATES_ELEMENT_META_TITLE": "Шаблон META TITLE",
+            "IPROPERTY_TEMPLATES_ELEMENT_META_KEYWORDS": "Шаблон META KEYWORDS",
+            "IPROPERTY_TEMPLATES_ELEMENT_META_DESCRIPTION": "Шаблон META DESCRIPTION",
+            "IPROPERTY_TEMPLATES_ELEMENT_PAGE_TITLE": "Заголовок элемента",
+            "IPROPERTY_TEMPLATES_ELEMENTS_PREVIEW_PICTURE": "Настройки для картинок анонса элементов",
+            "IPROPERTY_TEMPLATES_ELEMENT_PREVIEW_PICTURE_FILE_ALT": "Шаблон ALT",
+            "IPROPERTY_TEMPLATES_ELEMENT_PREVIEW_PICTURE_FILE_TITLE": "Шаблон TITLE",
+            "IPROPERTY_TEMPLATES_ELEMENT_PREVIEW_PICTURE_FILE_NAME": "Шаблон имени файла",
+            "IPROPERTY_TEMPLATES_ELEMENTS_DETAIL_PICTURE": "Настройки для детальных картинок элементов",
+            "IPROPERTY_TEMPLATES_ELEMENT_DETAIL_PICTURE_FILE_ALT": "Шаблон ALT",
+            "IPROPERTY_TEMPLATES_ELEMENT_DETAIL_PICTURE_FILE_TITLE": "Шаблон TITLE",
+            "IPROPERTY_TEMPLATES_ELEMENT_DETAIL_PICTURE_FILE_NAME": "Шаблон имени файла",
+            "SEO_ADDITIONAL": "Дополнительно",
+            "TAGS": "Теги"
+        },
+        "Разделы": {
+            "SECTIONS": "Разделы"
+        },
+        "Торговый каталог": {
+            "CATALOG": "Торговый каталог"
+        }
+    }
+}

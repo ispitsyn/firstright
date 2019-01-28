@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "statistic",
+            "NAME": "dbnode_id",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "statistic",
+            "NAME": "dbnode_status",
+            "VALUE": "ok",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "statistic",
+            "NAME": "COUNTRY_INDEX_LOADED",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "statistic",
+            "NAME": "IP_LOOKUP_CLASS",
+            "VALUE": "CCityLookup_geoip_extension",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

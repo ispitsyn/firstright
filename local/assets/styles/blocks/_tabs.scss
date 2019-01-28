@@ -1,0 +1,17 @@
+.tabs {
+  &__navigation {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+  }
+  &__list {
+
+  }
+  &__item {
+    display: none;
+    &.active,
+    &_show {
+      display: block;
+    }
+  }
+}

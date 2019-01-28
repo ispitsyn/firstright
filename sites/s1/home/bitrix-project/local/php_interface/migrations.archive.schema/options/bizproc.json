@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "bizproc",
+            "NAME": "SkipNonPublicCustomTypes",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

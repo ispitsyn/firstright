@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "upgrade2_0cb1fbfb39557866ff1875c8228ecb05",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "admin_versions_view",
+            "VALUE": "list",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "upgrade2_0e3044041414874d3d40476d9be2c13e",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "schema_iblockschema",
+            "VALUE": "cd3ee5775f50ef6a00576419adec4bab",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "schema_hlblockschema",
+            "VALUE": "50e0db0db9fb301c27e0661502df1e69",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "schema_usertypeentitiesschema",
+            "VALUE": "f58e55ec118a193b6b166bc068531f92",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "schema_agentschema",
+            "VALUE": "a46ab642af661a3fbbbd2116db58f916",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "schema_groupschema",
+            "VALUE": "ae92b85026337a16cb03a5063aaec031",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sprint.migration",
+            "NAME": "schema_optionschema",
+            "VALUE": "63ac3442a6ef8ff24a2c012411c91efc",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

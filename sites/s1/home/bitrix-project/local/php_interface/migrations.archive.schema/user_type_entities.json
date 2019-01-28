@@ -1,0 +1,314 @@
+{
+    "items": [
+        {
+            "ENTITY_ID": "IBLOCK_18_SECTION",
+            "FIELD_NAME": "UF_FIRST_SECTION",
+            "USER_TYPE_ID": "iblock_section",
+            "XML_ID": "FIRST_SECTION",
+            "SORT": "50",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "Y",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "DISPLAY": "LIST",
+                "LIST_HEIGHT": 5,
+                "IBLOCK_ID": 18,
+                "DEFAULT_VALUE": "",
+                "ACTIVE_FILTER": "N"
+            },
+            "EDIT_FORM_LABEL": {
+                "en": "First section",
+                "ru": "Первый раздел"
+            },
+            "LIST_COLUMN_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "LIST_FILTER_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "ERROR_MESSAGE": {
+                "en": "",
+                "ru": ""
+            },
+            "HELP_MESSAGE": {
+                "en": "",
+                "ru": ""
+            }
+        },
+        {
+            "ENTITY_ID": "IBLOCK_6_SECTION",
+            "FIELD_NAME": "UF_HIDDEN_MENU",
+            "USER_TYPE_ID": "boolean",
+            "XML_ID": "HIDDEN_MENU",
+            "SORT": "90",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "Y",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "DEFAULT_VALUE": 0,
+                "DISPLAY": "CHECKBOX",
+                "LABEL": [
+                    "",
+                    ""
+                ],
+                "LABEL_CHECKBOX": ""
+            },
+            "EDIT_FORM_LABEL": {
+                "en": "Hidden menu",
+                "ru": "Скрыть в меню"
+            },
+            "LIST_COLUMN_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "LIST_FILTER_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "ERROR_MESSAGE": {
+                "en": "",
+                "ru": ""
+            },
+            "HELP_MESSAGE": {
+                "en": "",
+                "ru": ""
+            }
+        },
+        {
+            "ENTITY_ID": "IBLOCK_6_SECTION",
+            "FIELD_NAME": "UF_LABEL_TEXT",
+            "USER_TYPE_ID": "string",
+            "XML_ID": "LABEL_TEXT",
+            "SORT": "95",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "Y",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "SIZE": 50,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            },
+            "EDIT_FORM_LABEL": {
+                "en": "Label text",
+                "ru": "Текст ярлыка"
+            },
+            "LIST_COLUMN_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "LIST_FILTER_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "ERROR_MESSAGE": {
+                "en": "",
+                "ru": ""
+            },
+            "HELP_MESSAGE": {
+                "en": "",
+                "ru": ""
+            }
+        },
+        {
+            "ENTITY_ID": "IBLOCK_6_SECTION",
+            "FIELD_NAME": "UF_SVG_ICON_CODE",
+            "USER_TYPE_ID": "string",
+            "XML_ID": "SVG_ICON_CODE",
+            "SORT": "100",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "Y",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "SIZE": 50,
+                "ROWS": 4,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            },
+            "EDIT_FORM_LABEL": {
+                "en": "SVG Icon(code)",
+                "ru": "SVG Icon(code)"
+            },
+            "LIST_COLUMN_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "LIST_FILTER_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "ERROR_MESSAGE": {
+                "en": "",
+                "ru": ""
+            },
+            "HELP_MESSAGE": {
+                "en": "",
+                "ru": ""
+            }
+        },
+        {
+            "ENTITY_ID": "IBLOCK_6_SECTION",
+            "FIELD_NAME": "UF_SECTION_TYPE",
+            "USER_TYPE_ID": "string",
+            "XML_ID": "SECTION_TYPE",
+            "SORT": "100",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "Y",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": "catalog"
+            },
+            "EDIT_FORM_LABEL": {
+                "en": "Section type",
+                "ru": "Тип раздела"
+            },
+            "LIST_COLUMN_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "LIST_FILTER_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "ERROR_MESSAGE": {
+                "en": "",
+                "ru": ""
+            },
+            "HELP_MESSAGE": {
+                "en": "",
+                "ru": ""
+            }
+        },
+        {
+            "ENTITY_ID": "IBLOCK_18_SECTION",
+            "FIELD_NAME": "UF_SVG_ICON_CODE",
+            "USER_TYPE_ID": "string",
+            "XML_ID": "SVG_ICON_CODE",
+            "SORT": "100",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "Y",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "SIZE": 50,
+                "ROWS": 4,
+                "REGEXP": "",
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": ""
+            },
+            "EDIT_FORM_LABEL": {
+                "en": "SVG Icon(code)",
+                "ru": "SVG Icon(code)"
+            },
+            "LIST_COLUMN_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "LIST_FILTER_LABEL": {
+                "en": "",
+                "ru": ""
+            },
+            "ERROR_MESSAGE": {
+                "en": "",
+                "ru": ""
+            },
+            "HELP_MESSAGE": {
+                "en": "",
+                "ru": ""
+            }
+        },
+        {
+            "ENTITY_ID": "SONET_COMMENT",
+            "FIELD_NAME": "UF_SONET_COM_FILE",
+            "USER_TYPE_ID": "file",
+            "XML_ID": "UF_SONET_COM_FILE",
+            "SORT": "100",
+            "MULTIPLE": "Y",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "N",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "Y",
+            "SETTINGS": []
+        },
+        {
+            "ENTITY_ID": "SONET_LOG",
+            "FIELD_NAME": "UF_SONET_LOG_FILE",
+            "USER_TYPE_ID": "file",
+            "XML_ID": "UF_SONET_LOG_FILE",
+            "SORT": "100",
+            "MULTIPLE": "Y",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "N",
+            "EDIT_IN_LIST": "Y",
+            "IS_SEARCHABLE": "Y",
+            "SETTINGS": []
+        },
+        {
+            "ENTITY_ID": "USER",
+            "FIELD_NAME": "UF_IM_SEARCH",
+            "USER_TYPE_ID": "string",
+            "XML_ID": null,
+            "SORT": "100",
+            "MULTIPLE": "N",
+            "MANDATORY": "N",
+            "SHOW_FILTER": "N",
+            "SHOW_IN_LIST": "N",
+            "EDIT_IN_LIST": "N",
+            "IS_SEARCHABLE": "N",
+            "SETTINGS": {
+                "SIZE": 20,
+                "ROWS": 1,
+                "REGEXP": null,
+                "MIN_LENGTH": 0,
+                "MAX_LENGTH": 0,
+                "DEFAULT_VALUE": null
+            },
+            "EDIT_FORM_LABEL": {
+                "ru": "IM: users can find"
+            },
+            "LIST_COLUMN_LABEL": {
+                "ru": "IM: users can find"
+            },
+            "LIST_FILTER_LABEL": {
+                "ru": "IM: users can find"
+            },
+            "ERROR_MESSAGE": {
+                "ru": null
+            },
+            "HELP_MESSAGE": {
+                "ru": null
+            }
+        }
+    ]
+}

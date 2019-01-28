@@ -1,0 +1,12 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 60">
+    <defs>
+        <style>.cls-1{fill:#424242;}</style>
+    </defs>
+    <title>macbook_air</title>
+    <g id="Dark">
+        <g id="Mac">
+            <path id="MacBook_Air" data-name="MacBook Air" class="cls-1"
+                  d="M47,55V31.5A1.35,1.35,0,0,0,45.5,30H6.5A1.34,1.34,0,0,0,5,31.5V55H0c.05.09.13.32.21.32a11.53,11.53,0,0,0,4.64,1.42c2.57.17,7.59.26,7.6.25H38.33s6-.08,8.59-.25a11.47,11.47,0,0,0,4.64-1.42A1.08,1.08,0,0,0,52,55ZM7,32H45V55H7Z"/>
+        </g>
+    </g>
+</svg>

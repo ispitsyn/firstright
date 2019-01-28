@@ -1,0 +1,863 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "sale",
+            "NAME": "product_reserve_clear_period",
+            "VALUE": "3",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "viewed_capability",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "viewed_count",
+            "VALUE": "10",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "viewed_time",
+            "VALUE": "5",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "expiration_processing_events",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "p2p_status_list",
+            "VALUE": [
+                "N",
+                "F",
+                "F_CANCELED",
+                "F_DELIVERY",
+                "F_PAY",
+                "F_OUT"
+            ],
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "basket_discount_converted",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "use_sale_discount_only",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_locationpro_import_performed",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "product_viewed_save",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_locationpro_migrated",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_locationpro_enabled",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "weight_unit",
+            "VALUE": "г",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "weight_koef",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "WEIGHT_different_set",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "location_zip",
+            "VALUE": "603159",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "location",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "ADDRESS_different_set",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_email",
+            "VALUE": "order@firstright.synergy-lab.ru",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "delete_after",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_list_date",
+            "VALUE": "30",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "MAX_LOCK_TIME",
+            "VALUE": "30",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "GRAPH_WEIGHT",
+            "VALUE": "800",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "GRAPH_HEIGHT",
+            "VALUE": "600",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "path2user_ps_files",
+            "VALUE": "\/bitrix\/php_interface\/include\/sale_payment\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "lock_catalog",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "show_order_sum",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "show_order_product_xml_id",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "show_paysystem_action_id",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "measurement_path",
+            "VALUE": "\/bitrix\/modules\/sale\/measurements.php",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "delivery_handles_custom_path",
+            "VALUE": "\/bitrix\/php_interface\/include\/sale_delivery\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "use_secure_cookies",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "encode_fuser_id",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "COUNT_DISCOUNT_4_ALL_QUANTITY",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "COUNT_DELIVERY_TAX",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "QUANTITY_FACTORIAL",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "SALE_ADMIN_NEW_PRODUCT",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "use_ccards",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "show_basket_props_in_order_list",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "pay_reminder",
+            "VALUE": {
+                "s1": {
+                    "after": "0",
+                    "frequency": "0",
+                    "period": "0"
+                }
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "subscribe_prod",
+            "VALUE": {
+                "s1": {
+                    "del_after": "0"
+                }
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "default_currency",
+            "VALUE": "RUB",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "crypt_algorithm",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_data_file",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_ps_success_path",
+            "VALUE": "\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_ps_fail_path",
+            "VALUE": "\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "sale_location_selector_appearance",
+            "VALUE": "steps",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_paid",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_half_paid",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_allow_delivery",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_allow_delivery_one_of",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_shipped_shipment",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_shipped_shipment_one_of",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "shipment_status_on_allow_delivery",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "shipment_status_on_shipped",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_payed_2_allow_delivery",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "status_on_change_allow_delivery_after_paid",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "allow_deduction_on_delivery",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "format_quantity",
+            "VALUE": "AUTO",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "value_precision",
+            "VALUE": "4",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_history_log_level",
+            "VALUE": "0",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_history_action_log_level",
+            "VALUE": "0",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_list_fields",
+            "VALUE": "ID,USER,PAY_SYSTEM,PRICE,STATUS,PAYED,PS_STATUS,CANCELED,BASKET",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "account_number_template",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "account_number_data",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "p2p_allow_collect_data",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "p2p_del_period",
+            "VALUE": "10",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "p2p_del_exp",
+            "VALUE": "10",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "product_reserve_condition",
+            "VALUE": "O",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "get_discount_percent_from_base_price",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "regular_archive_active",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "archive_blocked_order",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "archive_limit",
+            "VALUE": "10",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "archive_time_limit",
+            "VALUE": "5",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "archive_params",
+            "VALUE": {
+                "PERIOD": 365,
+                "STATUS_ID": [
+                    "N",
+                    "F"
+                ]
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_changes_cleaner_active",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_changes_cleaner_days",
+            "VALUE": "365",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "order_changes_cleaner_limit",
+            "VALUE": "10000",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "GROUP_DEFAULT_RIGHT",
+            "VALUE": "D",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "tracking_map_statuses",
+            "VALUE": [],
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "tracking_check_switch",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "tracking_check_period",
+            "VALUE": "24",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "use_advance_check_by_default",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "basket_refresh_gap",
+            "VALUE": "0",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "allow_pay_status",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "allow_guest_order_view",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "allow_guest_order_view_paths",
+            "VALUE": {
+                "s1": ""
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "allow_guest_order_view_status",
+            "VALUE": [],
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "discount_separately_calculation",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_SALE_SITE_LIST",
+            "VALUE": "s1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_NEW_ORDERS",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_SITE_NEW_ORDERS",
+            "VALUE": "s1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_SALE_ACCOUNT_NUMBER_SHOP_PREFIX",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_EXPORT_PAYED_ORDERS",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_EXPORT_ALLOW_DELIVERY_ORDERS",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_CHANGE_STATUS_FROM_1C",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_EXPORT_FINAL_ORDERS",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_FINAL_STATUS_ON_DELIVERY",
+            "VALUE": "F",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_REPLACE_CURRENCY",
+            "VALUE": "руб.",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_DEFAULT_PS",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_DEFAULT_PS_B",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_DEFAULT_PS_A",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_DEFAULT_PS_ORDER_PAID",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_DEFAULT_SHIPMENT_SERVICE",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_UPDATE_BASKET_QUANTITY",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_NEW_PAYMENT",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_NEW_SHIPMENT",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_IMPORT_NEW_ORDER_NEW_SHIPMENT",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_SALE_GROUP_PERMISSIONS",
+            "VALUE": "1,8",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_SALE_USE_ZIP",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_INTERVAL",
+            "VALUE": "30",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "1C_FILE_SIZE_LIMIT",
+            "VALUE": "204800",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "SALE_EXCHANGE_DEBUG_INTERVAL_DAY",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "export_session_name_\/bitrix\/admin\/1c_excha",
+            "VALUE": "PHPSESSID",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "export_session_id_\/bitrix\/admin\/1c_excha",
+            "VALUE": "4a1f88c849796eadc78c09f02ff5fb74",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "secure_1c_exchange",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "~crm_integration",
+            "VALUE": {
+                "https:\/\/firstright.bitrix24.ru": {
+                    "DATE": 1538277072
+                }
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "sale",
+            "NAME": "saleservices_access",
+            "VALUE": {
+                "client_id": "bx.5c0849725c33c7.60716844",
+                "client_secret": "DUuBklUIJACLjk60muJd7reJDNKxqiYLW31zqKpXdipzb4N0iz",
+                "host": "firstright.ru"
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

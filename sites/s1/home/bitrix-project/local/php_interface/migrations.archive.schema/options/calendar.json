@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "calendar",
+            "NAME": "~ft_b_calendar_event",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "calendar",
+            "NAME": "needEventIndex",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

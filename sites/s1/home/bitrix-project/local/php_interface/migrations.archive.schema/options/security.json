@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "security",
+            "NAME": "checker_exts",
+            "VALUE": "php,js,htaccess",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "security",
+            "NAME": "ipcheck_disable_file",
+            "VALUE": "\/bitrix\/modules\/ipcheck_disable_8946dc822ba407c6d203eba64262d329",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "security",
+            "NAME": "redirect_sid",
+            "VALUE": "sv5423cees3ljdykrqqofe3ou1io08dq",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

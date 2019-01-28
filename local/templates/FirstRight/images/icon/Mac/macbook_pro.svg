@@ -1,0 +1,12 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 60">
+    <defs>
+        <style>.cls-1{fill:#424242;}</style>
+    </defs>
+    <title>macbook_pro</title>
+    <g id="Dark">
+        <g id="Mac">
+            <path id="MacBook_Pro" data-name="MacBook Pro" class="cls-1"
+                  d="M53,54V26.5A1.47,1.47,0,0,0,51.5,25H6.5A1.47,1.47,0,0,0,5,26.5V54H0v1.43C.64,56.46,4.09,57,5.47,57h46.7c1.37,0,5.2-.54,5.84-1.57V54ZM7,27H51V54H7Z"/>
+        </g>
+    </g>
+</svg>

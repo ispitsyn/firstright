@@ -1,0 +1,16 @@
+.navigation {
+  &_footer {
+    .navigation {
+      &__item {
+        font-weight: 500;
+        line-height: 1.6;
+      }
+      &__link {
+        transition: all 0.25s ease-in-out;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

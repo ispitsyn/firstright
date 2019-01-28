@@ -1,0 +1,131 @@
+.cart {
+  width: 100%;
+  table-layout: fixed;
+
+  thead {
+    th {
+      text-align: left;
+    padding-bottom: 15px;
+      border-bottom: 1px solid #e5e5e5;
+      font: $Ubuntu_14_600;
+
+      &:nth-of-type(1) {
+        width: 200px;
+      }
+
+      &:nth-of-type(2) {
+        width: 384px;
+      }
+
+      &:nth-of-type(3) {
+        text-align: center;
+        width: 190px;
+      }
+
+      &:nth-of-type(4) {
+        text-align: center;
+        width: 116px;
+      }
+
+      &:nth-of-type(5) {
+        text-align: center;
+        width: 190px;
+      }
+
+      &:nth-of-type(6) {
+        width: 40px;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+
+    }
+
+    td {
+      font: $OpenSans_14_600;
+      border-bottom: 1px solid #e5e5e5;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      p {
+        margin-bottom: 15px;
+  }
+
+    &:nth-of-type(1) {
+      img {
+        display: block;
+        max-width: 100%;
+      }
+    }
+
+    &:nth-of-type(2) {
+    }
+
+    &:nth-of-type(3) {
+      text-align: center;
+      font: $Ubuntu_16_700;
+    }
+
+    &:nth-of-type(4) {
+
+    }
+
+    &:nth-of-type(5) {
+      text-align: center;
+      font: $Ubuntu_16_700;
+    }
+
+    &:nth-of-type(6) {
+    }
+  }
+}
+
+&__mark {
+  &-name {
+    color: $color_brand_primary
+  }
+
+  &-value {
+  }
+}
+
+&__close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  use {
+    fill: #bdbdbd;
+  }
+
+  &:hover {
+    use {
+      fill: #263238;
+    }
+  }
+}
+
+&__footer {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+&__promo {
+  margin-left: 0;
+}
+
+&__cost {
+  font: $Ubuntu_26_700;
+  margin-right: 10%;
+  margin-left: auto;
+}
+
+&__buy {
+  margin-right: 0;
+}
+
+}

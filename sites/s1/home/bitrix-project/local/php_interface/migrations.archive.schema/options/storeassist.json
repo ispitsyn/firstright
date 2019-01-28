@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "storeassist",
+            "NAME": "num_orders",
+            "VALUE": {
+                "newDay": 0,
+                "prevDay": 0
+            },
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "storeassist",
+            "NAME": "progress_percent",
+            "VALUE": "0",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "storeassist",
+            "NAME": "storeassist_settings",
+            "VALUE": "opening,storeassist_virtual,bitrixcloud_monitoring_admin,dump_auto,seo_search_google,seo_search_yandex",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

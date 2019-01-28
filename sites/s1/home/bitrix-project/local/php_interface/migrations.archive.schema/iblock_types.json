@@ -1,0 +1,79 @@
+{
+    "items": [
+        {
+            "ID": "catalog",
+            "SECTIONS": "Y",
+            "EDIT_FILE_BEFORE": "",
+            "EDIT_FILE_AFTER": "",
+            "IN_RSS": "N",
+            "SORT": "100",
+            "LANG": {
+                "ru": {
+                    "NAME": "Каталог",
+                    "SECTION_NAME": "",
+                    "ELEMENT_NAME": ""
+                },
+                "en": {
+                    "NAME": "Catalog",
+                    "SECTION_NAME": "",
+                    "ELEMENT_NAME": ""
+                }
+            }
+        },
+        {
+            "ID": "content",
+            "SECTIONS": "N",
+            "EDIT_FILE_BEFORE": "",
+            "EDIT_FILE_AFTER": "",
+            "IN_RSS": "N",
+            "SORT": "200",
+            "LANG": {
+                "ru": {
+                    "NAME": "Контент",
+                    "SECTION_NAME": "",
+                    "ELEMENT_NAME": ""
+                },
+                "en": {
+                    "NAME": "Content",
+                    "SECTION_NAME": "",
+                    "ELEMENT_NAME": ""
+                }
+            }
+        },
+        {
+            "ID": "repair",
+            "SECTIONS": "Y",
+            "EDIT_FILE_BEFORE": "",
+            "EDIT_FILE_AFTER": "",
+            "IN_RSS": "N",
+            "SORT": "500",
+            "LANG": {
+                "ru": {
+                    "NAME": "Ремонт",
+                    "SECTION_NAME": "",
+                    "ELEMENT_NAME": ""
+                },
+                "en": {
+                    "NAME": "Repair",
+                    "SECTION_NAME": "",
+                    "ELEMENT_NAME": ""
+                }
+            }
+        },
+        {
+            "ID": "rest_entity",
+            "SECTIONS": "Y",
+            "EDIT_FILE_BEFORE": null,
+            "EDIT_FILE_AFTER": null,
+            "IN_RSS": "N",
+            "SORT": "1000",
+            "LANG": {
+                "en": {
+                    "NAME": "MP applications entity storage",
+                    "SECTION_NAME": "Sections",
+                    "ELEMENT_NAME": "Elements"
+                }
+            }
+        }
+    ]
+}

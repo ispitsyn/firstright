@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "mail",
+            "NAME": "mail_invited_group",
+            "VALUE": "9",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "socialservices",
+            "NAME": "bitrix24net_domain",
+            "VALUE": "http:\/\/firstright.synergy-lab.ru",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "socialservices",
+            "NAME": "bitrix24net_id",
+            "VALUE": "ext.5b5b8913402c01.32850133",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "socialservices",
+            "NAME": "bitrix24net_secret",
+            "VALUE": "FTUWBAyeKDUYhvwRKx8PBrRQGY1UaXUyA8F8T2tjtvsWpVs55z",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

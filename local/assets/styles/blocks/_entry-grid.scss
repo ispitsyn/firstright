@@ -1,0 +1,31 @@
+.entry-grid {
+
+  &__header{
+
+  }
+  &__title{
+
+  }
+  &__description{
+
+  }
+
+  &__main {
+    margin: 0 -10px -20px;
+  }
+  &__grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 100%;
+    max-width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    &_main {
+      max-width: 75%;
+    }
+  }
+
+}

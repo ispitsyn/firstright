@@ -1,0 +1,78 @@
+/*
+==========================================================================
+   ClearFix
+==========================================================================
+*/
+@mixin cf {
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  *zoom: 1;
+}
+@mixin box {
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+@mixin th {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  color: transparent;
+  font-size: 0;
+}
+@mixin align-justify {
+  text-align: justify;
+  text-justify: newspaper;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+}
+@mixin vshidden {
+  &:not(:focus):not(:active) {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+@mixin fontTitle($size) {
+  font-family: 'OpenSans';
+  @if $size == 'L' {
+    font-size: 32px;
+  }
+  @if $size == 'M' {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  @if $size == 'S' {
+    font-size: 16px;
+  }
+  @if $size == 'XS' {
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 700;
+  }
+}

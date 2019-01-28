@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "sender",
+            "NAME": "sender_preset_version",
+            "VALUE": "2",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

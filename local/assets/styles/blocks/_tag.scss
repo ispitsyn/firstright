@@ -1,0 +1,31 @@
+.tag {
+  display: inline-block;
+  text-align: center;
+  min-width: 70px;
+  height: 25px;
+  font-size: 12px;
+  background: #DBDBDB;
+  margin-right: 5px;
+  color: #626262;
+  white-space: nowrap;
+  padding: 0 15px;
+  border-radius: 2px;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+  &:hover {
+    background: #D7E4EC;
+  }
+  &__name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

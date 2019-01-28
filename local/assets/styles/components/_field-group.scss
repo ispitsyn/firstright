@@ -1,0 +1,57 @@
+.field-group {
+  display: flex;
+  justify-content: space-between;
+  &_subscribe {
+    .field {
+      background-color: #333333;
+      border-color: #333333;
+      color: #fff;
+      min-width: 280px;
+      line-height: 42px;
+
+      &::placeholder {
+        color: #a6a6a6;
+      }
+    }
+    .button {
+      margin-left: 10px;
+      height: 44px;
+      background-color: #263238;
+      min-width: 140px;
+    }
+  }
+  &_callback {
+    justify-content: center;
+    .button {
+      margin-left: 10px;
+    }
+    .field {
+      width: 280px;
+    }
+  }
+  &_quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    .button {
+      &:first-of-type {
+        border-radius: 4px 0 0 4px;
+      }
+      &:last-of-type {
+        border-radius: 0 4px 4px 0;
+      }
+    }
+    .field {
+      height: 32px;
+      width: 32px;
+      border: 1px solid #e5e5e5;
+      margin: 0 -1px;
+      background: #fff;
+      border-radius: 0;
+      text-align: center;
+      padding: 0;
+      font: $Ubuntu_13_400;
+    }
+  }
+}

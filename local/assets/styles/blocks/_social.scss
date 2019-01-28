@@ -1,0 +1,44 @@
+.social {
+  &_footer {
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #333333;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      background: #fff;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__item-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .svg-icon {
+      max-width: 60%;
+      margin: 0 auto;
+      use {
+        fill: #222224;
+      }
+    }
+  }
+  &__link-text {
+    @include vshidden();
+  }
+}

@@ -1,0 +1,396 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "enable_reservation",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "subscribe_repeated_notify",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "GROUP_DEFAULT_TASK",
+            "VALUE": "46",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "export_default_path",
+            "VALUE": "\/bitrix\/catalog_export\/",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "default_catalog_1c",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "deactivate_1c_no_price",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "yandex_xml_period",
+            "VALUE": "24",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "default_outfile_action",
+            "VALUE": "D",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "yandex_agent_file",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "num_catalog_levels",
+            "VALUE": "3",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "allowed_product_fields",
+            "VALUE": "IE_XML_ID,IE_NAME,IE_PREVIEW_TEXT,IE_DETAIL_TEXT,CP_QUANTITY,CP_WEIGHT,CP_WIDTH,CP_HEIGHT,CP_LENGTH",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "allowed_price_fields",
+            "VALUE": "CV_PRICE,CV_CURRENCY",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "allowed_group_fields",
+            "VALUE": "IC_GROUP",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "allowed_currencies",
+            "VALUE": "USD",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "viewed_period",
+            "VALUE": "5",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "viewed_time",
+            "VALUE": "10",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "viewed_count",
+            "VALUE": "10",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "save_product_without_price",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "save_product_with_empty_price_range",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "show_catalog_tab_with_offers",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "default_product_vat_included",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "product_form_show_offers_iblock",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "product_form_simple_search",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "product_form_show_offer_name",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "enable_processing_deprecated_events",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "default_use_store_control",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "GROUP_DEFAULT_RIGHT",
+            "VALUE": "D",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_IBLOCK_TYPE",
+            "VALUE": "-",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_SITE_LIST",
+            "VALUE": "-",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_GROUP_PERMISSIONS",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_USE_OFFERS",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_TRANSLIT_ON_ADD",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_TRANSLIT_ON_UPDATE",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_TRANSLIT_REPLACE_CHAR",
+            "VALUE": "_",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_INTERVAL",
+            "VALUE": "30",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_FILE_SIZE_LIMIT",
+            "VALUE": "204800",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_USE_ZIP",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_USE_CRC",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_ELEMENT_ACTION",
+            "VALUE": "D",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_SECTION_ACTION",
+            "VALUE": "D",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_FORCE_OFFERS",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_USE_IBLOCK_TYPE_ID",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_SKIP_ROOT_SECTION",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_DISABLE_CHANGE_PRICE_NAME",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_USE_IBLOCK_PICTURE_SETTINGS",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_GENERATE_PREVIEW",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_PREVIEW_WIDTH",
+            "VALUE": "100",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_PREVIEW_HEIGHT",
+            "VALUE": "100",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_DETAIL_RESIZE",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_DETAIL_WIDTH",
+            "VALUE": "300",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1C_DETAIL_HEIGHT",
+            "VALUE": "300",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1CE_IBLOCK_ID",
+            "VALUE": "6",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1CE_ELEMENTS_PER_STEP",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1CE_INTERVAL",
+            "VALUE": "30",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1CE_GROUP_PERMISSIONS",
+            "VALUE": "1",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "catalog",
+            "NAME": "1CE_USE_ZIP",
+            "VALUE": "Y",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

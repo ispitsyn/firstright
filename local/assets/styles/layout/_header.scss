@@ -1,0 +1,133 @@
+.header {
+  position: relative;
+  z-index: 999;
+  &.fixed {
+    .header-top {
+      padding-bottom: 80px;
+    }
+    .header-main {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      background-color: #fff;
+    }
+  }
+}
+
+.header-top {
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+  }
+  &__navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__contacts {
+    width: 100%;
+    max-width: 125px;
+    display: block;
+    text-align: right;
+    &-description {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  &__tel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &-icon {
+      width: 16px;
+      height: 16px;
+      use {
+        fill: #121212;
+      }
+    }
+    &-text {
+      font-weight: 500;
+      line-height: 1.6;
+    }
+  }
+}
+
+.navigation-top {
+  &__list {
+
+  }
+  &__item {
+    display: inline-block;
+    margin-right: 19px;
+    line-height: 1.6;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #757575;
+    &_active {
+      color: #ff5722;
+    }
+    &:hover {
+      color: #ff5722;
+    }
+  }
+}
+
+.header-main {
+  position: relative;
+  border: solid #e0e0e0;
+  border-width: 1px 0;
+  height: 70px;
+  background: #fff;
+  z-index: 999;
+  &__box {
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__logo {
+    max-width: 120px;
+    height: 100%;
+    .svg-icon use {
+      fill: #000;
+    }
+  }
+  &__menu {
+    width: 100%;
+    height: 100%;
+  }
+  &__controls {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  &__control {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 0 15px;
+    box-sizing: content-box;
+    cursor: pointer;
+    &:first-child {margin-left: 0}
+    &:last-child {margin-right: 0}
+    .svg-icon use {
+      fill: #bdbdbd;
+    }
+    &:hover {
+      .svg-icon use {
+        fill: #5e5e5e;
+      }
+    }
+  }
+}

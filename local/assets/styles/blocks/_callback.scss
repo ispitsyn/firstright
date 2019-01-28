@@ -1,0 +1,25 @@
+.callback {
+  width: 100%;
+  &__box {
+    @extend .section__box;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  &__header {
+    @extend .section__header;
+    min-height: 160px;
+  }
+  &__title {
+    @extend .section__title;
+  }
+  &__description {
+    @extend .section__description;
+  }
+  &__footer {
+    @extend .section__footer;
+    &:empty {
+      min-height: 60px;
+    }
+  }
+}

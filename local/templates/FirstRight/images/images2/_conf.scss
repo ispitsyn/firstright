@@ -1,0 +1,238 @@
+.width {
+  width: 1400px;
+  margin: 0 auto;
+}
+.configurator {
+  &__header {
+
+  }
+  &__brands {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  &__brand {
+    flex-basis: 210px;
+  }
+  &__brand-box {
+    display: block;
+    position: relative;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid #cfd8dc;
+    overflow: hidden;
+    transition: border-color 0.25s ease-in-out;
+    cursor: pointer;
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+    &:hover {
+      border-color: #e53935;
+    }
+  }
+  &__main {
+    display: flex;
+  }
+  &__navigation {
+    flex-basis: 328px;
+    padding-right: 28px;
+  }
+  &__body {
+    flex-grow: 1;
+    position: relative;
+    box-sizing: border-box;
+  }
+  &__screen {
+    width: 100%;
+    height: 100%;
+    padding: 50px 92px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    &_1 {
+      padding: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 1;
+    }
+    &_2 {
+      z-index: 2;
+      border: 1px solid #e53935;
+      box-shadow: 0.7px 0.7px 8px rgba(0, 0, 0, 0.3);
+    }
+    &_3 {
+      z-index: 3;
+    }
+    &_4 {
+      z-index: 4;
+    }
+    &_5 {
+
+    }
+  }
+  &__screen-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__screen-view {
+    margin-right: -92px;
+    img {
+      display: block;
+    }
+  }
+  &__screen-select {
+    margin-bottom: 30px;
+    label {
+      width: 90px;
+      float: left;
+      line-height: 56px;
+    }
+    .jq-selectbox {
+      display: block;
+      box-sizing: border-box;
+    }
+    .jq-selectbox__select {
+      height: 56px;
+    }
+  }
+  &__screen-select-box {
+    width: 100%;
+    padding-left: 90px;
+  }
+}
+.conf-control {
+  margin-bottom: 28px;
+  &__box {
+    width: 100%;
+    max-width: 708px;
+    margin: 0 auto;
+    height: 56px;
+    border: 1px solid #cfd8dc;
+    border-radius: 38px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    &_cpu {
+      max-width: 448px;
+    }
+  }
+  &__scale {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__scale-item {
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 100%;
+    height: 56px;
+    text-align: center;
+    &:before {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 100%;
+        margin-left: -2px;
+        vertical-align: middle;
+    }
+  }
+  &__scale-text {
+    max-width: 98%;
+    display: inline-block;
+    text-align: center;
+    color: #90a4ae;
+    font-weight: 700;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+  }
+  &__slider {
+    width: 66.66666%;
+    margin: 0 auto;
+  }
+  &__slider-handle {
+    top: -1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateX(100%);
+    transition: transform 0.25s ease-in-out;
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      top: 0;
+      left: -24px;
+      position: absolute;
+      height: 54px;
+      box-sizing: content-box;
+      padding: 0 24px;
+      border: 1px solid #282828;
+      border-radius: 28px;
+      filter: grayscale(1);
+    }
+  }
+}
+.conf-nav {
+  border: solid #cfd8dc;
+  border-width: 1px 1px 0 1px;
+  &__item {
+    height: 152px;
+    border-bottom: 1px solid #cfd8dc;
+  }
+  &__item-view {
+    position: relative;
+    width: 135px;
+    height: 100%;
+    float: left;
+    img {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+  &__item-info {
+    padding-top: 35px;
+    margin-left: 135px;
+  }
+}
+.conf-slider {
+  position: relative;
+  padding-top: 25px;
+  &__scale {
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    height: 38px;
+    background: url('../images/crab/cpu-scale.jpg') center bottom / 100% auto no-repeat;
+  }
+  &__line {
+    width: 91.75%;
+    margin: 0 auto;
+    background: transparent;
+    &.ui-widget-content {
+      border: none;
+    }
+    .ui-slider-handle {
+      width: 8%;
+      margin-left: -4%;
+      background-color: #e53935;
+      outline: none;
+      &.ui-state-active {
+        border: none;
+      }
+    }
+  }
+}

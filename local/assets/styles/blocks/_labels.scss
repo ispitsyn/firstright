@@ -1,0 +1,25 @@
+.labels {
+  &_detail {
+    background: #fff;
+    .labels {
+      &__list {
+        display: flex;
+        justify-content: flex-start;
+      }
+      &__item {
+        text-transform: uppercase;
+        margin-right: 22px;
+        font: $Ubuntu_12_400;
+        &_new {
+          color: #67c23a;
+        }
+        &_top {
+          color: #00c0ff;
+        }
+        &_sale {
+          color: #ff5722;
+        }
+      }
+    }
+  }
+}

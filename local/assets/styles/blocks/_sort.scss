@@ -1,0 +1,10 @@
+.sort {
+  padding: 14px 0;
+  border: solid #e5e5e5;
+  border-width: 1px 0;
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

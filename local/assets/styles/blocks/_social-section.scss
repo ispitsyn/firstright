@@ -1,0 +1,39 @@
+.social-section {
+  padding-top: 74px;
+  padding-bottom: 84px;
+  border-top: 1px solid #e5e5e5;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 25%;
+    &-icon {
+      position: relative;
+      height: 50px;
+      margin-bottom: 12px;
+      use {
+        fill: #bdbdbd;
+      }
+    }
+    &:hover {
+      .social-section__item-icon use {
+        fill: #5e5e5e;
+      }
+    }
+    &-info {
+      text-align: center;
+    }
+    &-name {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 5px;
+      color: #333333;
+    }
+    &-quantity {
+      color: #a6a6a6;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+.bx-filter-container-modef {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    background-color: #263238;
+    color: #fff;
+    height: 44px;
+    padding: 0 15px;
+}
+.bx-filter-container-modef:empty {
+    visibility: hidden;
+}
+
+.filter-property_disabled {
+    display: none;
+}
+
+.catalog {
+    padding-top: 69px;
+    margin-top: -69px;
+}

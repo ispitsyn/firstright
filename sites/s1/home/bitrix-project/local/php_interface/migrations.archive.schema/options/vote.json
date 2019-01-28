@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "vote",
+            "NAME": "VOTE_DIR",
+            "VALUE": "",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        },
+        {
+            "MODULE_ID": "vote",
+            "NAME": "VOTE_COMPATIBLE_OLD_TEMPLATE",
+            "VALUE": "N",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

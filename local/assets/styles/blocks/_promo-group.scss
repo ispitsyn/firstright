@@ -1,0 +1,15 @@
+.promo-group {
+  &__box {
+    padding-top: 20px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px;
+  }
+  &__item {
+    width: 100%;
+    max-width: 33.3333%;
+    margin: 0 10px;
+  }
+}

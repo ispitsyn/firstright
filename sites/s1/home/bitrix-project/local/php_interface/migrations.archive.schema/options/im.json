@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "MODULE_ID": "im",
+            "NAME": "path_to_user_profile",
+            "VALUE": "\/extranet\/contacts\/personal\/user\/#user_id#\/",
+            "DESCRIPTION": null,
+            "SITE_ID": "ex"
+        },
+        {
+            "MODULE_ID": "im",
+            "NAME": "chat_extend_show_history",
+            "VALUE": "0",
+            "DESCRIPTION": null,
+            "SITE_ID": null
+        }
+    ]
+}

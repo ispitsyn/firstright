@@ -1,0 +1,1 @@
+/home/bitrix/ext_www/firstright.ru/bitrix/modules/sale/install/components/bitrix/sale.personal.order/templates/.default/bitrix//home/bitrix/ext_www/firstright.ru/bitrix/components/bitrix/sale.personal.order/templates/.default/bitrix/

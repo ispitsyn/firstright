@@ -1,0 +1,45 @@
+.characteristics {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  table-layout: fixed;
+  tbody {
+    display: block;
+  }
+  tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: left;
+    &:last-of-type {
+      border-bottom: none;
+    }
+    &:first-child {
+      th {
+        min-height: 0;
+        padding-top: 0;
+      }
+    }
+  }
+  th {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 60px;
+    padding: 12px 0 16px;
+    text-transform: uppercase;
+    font: $Ubuntu_16_700;
+  }
+  td {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    vertical-align: middle;
+    font: $Ubuntu_14_400;
+    padding: 12px 0;
+  }
+}

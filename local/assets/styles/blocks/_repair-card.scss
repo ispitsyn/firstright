@@ -1,0 +1,56 @@
+.repair-card {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #fff;
+  &__info {
+    flex-basis: 57%;
+  }
+  &__title {
+    display: inline-block;
+    font-size: 14px;
+    color: #03a9f4;
+
+  }
+  &__description {
+    padding-top: 5px;
+    font-size: 11px;
+    color: #a4a4a4;
+  }
+  &__params {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 43%;
+  }
+  &__time {
+    flex-grow: 1;
+  }
+  &__price {
+    flex-grow: 1;
+    font-weight: 500;
+    color: inherit;
+  }
+  &__order {
+
+  }
+
+  &_problem {
+    height: 50px;
+    .repair-card {
+      &__info {
+        flex-basis: 70%;
+      }
+      &__params {
+        flex-basis: 30%;
+      }
+      &__price {
+        flex-grow: 0;
+      }
+    }
+  }
+}

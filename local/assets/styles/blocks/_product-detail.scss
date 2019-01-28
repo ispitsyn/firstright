@@ -1,0 +1,161 @@
+.product-detail {
+  &__header {
+    &-box {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 120px;
+      border-bottom: 1px solid #e5e5e5;
+      z-index: 1;
+    }
+  }
+  &__title {
+    font: $OpenSans_34_700;
+  }
+  &__labels {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+  }
+
+
+  &__main {
+    padding-bottom: 60px;
+    &-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+  }
+  &__view {
+    width: 46.5%;
+
+  }
+  &__slider {}
+
+  &__info {
+    width: 44.6%;
+    &-section {
+      border-top: 1px solid #e5e5e5;
+      padding: 20px 0;
+      &:first-of-type {
+        border-top: none;
+      }
+      &_options {
+        .option-group {
+          &:first-of-type {
+            padding-top: 0;
+          }
+          &:last-of-type {
+            padding-bottom: 0;
+          }
+          &_color {
+            &:first-of-type {
+              padding-top: 5px;
+            }
+            &:last-of-type {
+              padding-bottom: 5px;
+            }
+          }
+        }
+      }
+      &_spoiler {
+
+      }
+      &_buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      &_delivery {
+
+      }
+    }
+    &_stretch {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .product-detail__info-section {
+        &_options {
+          margin-top: 0;
+        }
+        &_spoiler {
+          margin-top: 0;
+          margin-bottom: auto;
+        }
+        &_buy {
+          margin-bottom: 0;
+        }
+        &_delivery {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &__price-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__price {
+    font: $Ubuntu_26_700;
+    &_last {
+      font: $Ubuntu_18_400;
+    }
+  }
+  &_buy {
+    width: 50%;
+  }
+
+  &__delivery {
+    padding: 12px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &:first-of-type {
+      padding-top: 0;
+    }
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+    &-icon {
+      display: inline-block;
+      vertical-align: middle;
+      height: 16px;
+      width: 36px;
+      background-position: left center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      &_moscow {
+        background-image: url('../images/icon/delivery-1.svg');
+      }
+      &_country {
+        background-image: url('../images/icon/delivery-2.svg');
+        height: 20px;
+      }
+    }
+    &-name {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      color: #000000;
+      &:after {
+        content: ' - ';
+      }
+      margin-right: 2px;
+    }
+    &-price {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      color: #ff5722;
+    }
+  }
+
+  &__add {}
+  &__tabs {}
+}

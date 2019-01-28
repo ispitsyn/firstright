@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"iPhone", 
+		"/iphone/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"iPad", 
+		"/ipad/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Watch", 
+		"/watch/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Mac", 
+		"/mac/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"TV", 
+		"/tv/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Trade-In", 
+		"/trade-in/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аксессуары", 
+		"/accessories/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ремонт и настройка", 
+		"/repair/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Скидки", 
+		"/sale/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

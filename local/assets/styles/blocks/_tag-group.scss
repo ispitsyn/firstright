@@ -1,0 +1,11 @@
+.tag-group {
+  margin: 0 -5px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  &__item {
+    margin: 5px;
+  }
+}
